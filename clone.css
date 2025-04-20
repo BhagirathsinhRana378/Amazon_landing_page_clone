@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+/* <!-------------------------------navbar-------------------------------------> */
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 111px;
+    background-position: center;
+}
+
+
+.logo {
+    background-image: url("Images/logo.jpg");
+    height: 50px;
+    width: 111px;
+    background-size: cover;
+}
+
+.border {
+    border: 1.8px solid transparent;
+}
+
+.border:hover {
+    border: 1.8px solid white;
+    border-radius: 5px;
+}
+
+/* <!-- box-2 --> */
+
+.add-first {
+    color: #ffffff;
+    font-size: 0.72rem;
+}
+
+.add-second {
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-left: 4px;
+
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+/* <!-- box-3 --> */
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    width: 615px;
+    height: 35px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.nav-search:hover {
+    border: 2.3px solid #ff9914;
+    border-radius: 8px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    height: 35px;
+    border: none;
+}
+
+.search-icon {
+    width: 38px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: #ff9914;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/* <!-- box-3 --> */
+
+/* <!-- box-4&5 --> */
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.9rem;
+    font-weight: 795;
+}
+
+/* <!-- box-4&5 --> */
+
+/* <!-- box-6 --> */
+.nav-cart i {
+    font-size: 1.9rem;
+}
+
+.nav-cart {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* <!-------------------------------Navbar-------------------------------------> */
+/* <!-------------------------------PANEL-------------------------------------> */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+
+.panel-opitions p {
+    display: inline;
+    margin-left: 12px;
+}
+
+.panel-opitions {
+    width: 75%;
+    font-size: 0.96rem;
+    font-weight: 510;
+}
+
+.panel-deals {
+    font-size: 1.11rem;
+    font-weight: 650;
+}
+/* <!-------------------------------PANEL------------------------------------->
+<!-------------------------------Hero_section-------------------------------------> */
+.hero-sec{
+    background-image: url("Images/Hero_section_iimg.jpg");
+    height:360px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero_msg{
+    background-color: #f3f3f3;
+    color:#0f1111;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0.1px solid rgba(0, 0, 0, 0.178);
+    width:90%;
+    padding:4px;
+    margin-bottom: 35px;
+}
+.hero_msg a{
+    color:#007185;
+    font-size: 0.9rem;
+}
+/* <!-------------------------------Hero_section-------------------------------------> */ 
+
+.shop_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ececec;
+    padding: 20px 0;
+}
+
+.box { 
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+}
+.box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgb(77, 72, 72);
+}
+
+.box_content h2 {
+    font-size: 1.225rem;
+    margin-bottom: 10px;
+}
+
+.box_image {
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.box_content {
+    padding: 1rem;
+    text-align: center;
+}
+
+.box_content h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 0.75rem;
+}
+
+.box_content p {
+    color: #007185;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+.box_content p:hover {
+    color: #c7511f;
+    text-decoration: underline;
+}
+/* <!-------------------------------Hero_section-------------------------------------> */ 
+/* <!-------------------------------Footer-------------------------------------> */ 
+
+.foot_panle_1{
+    background-color: #37475a;
+    color:white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    font-size: 1rem;
+}
+.foot_panle_1 a{
+    color: #ececec;
+}
+footer{
+    margin-top: 10px;
+}
+.foot_panle_2{ 
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    height: 360px;
+}
+ul a{
+    display: block;
+    font-size: 0.73rem;
+    margin-top: 12px;
+    color: rgb(173, 173, 173);
+}
+ul a:hover{
+    color:white;
+    text-decoration: underline;
+}
+ul{
+    margin-top: 8px;
+}
+ul p{  
+    font-size:1.1rem;
+    color: white;
+}
+.foot_panle3{
+    background-color: #222f3d;
+    border-top:0.5px solid rgba(255, 255, 255, 0.411);
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:70px;
+}
+.foot_logo{
+    background-image: url("Images/logo.jpg");
+    height: 50px;
+    width: 100px;
+    border-radius: 3px;
+    background-size: cover;
+    background-position: center;
+}
+.foot_Ind{
+    background-image: url("Images/India_flag_img.png");
+    height: 50px;
+    width: 85px;
+    border-radius: 3px;
+    background-size: cover;
+    background-position: center;
+}
+.foot_eng{
+    border: 1px solid rgb(104, 104, 104);
+    padding:5px;
+    border-radius: 5px;
+}
+.foot_eng select{
+    width:90px;
+}
+.foot_eng:hover{
+    border: 1.2px solid rgb(255, 255, 255);
+}
+.foot_panel_4{
+    background-color: #0f1111;
+    color: rgb(172, 172, 172);
+    font-size: 0.8rem;
+    text-align: center;
+    height:80px;
+}
+.pages{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top:20px;
+}
+.copy_right{
+    padding-top:8px;
+}
+.pages:hover{
+    color:white;
+    text-decoration: underline;
+}
+.copy_right:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    
+    .nav-second{
+        display: inline;
+        position:absolute;
+        right:0;
+        font-size: 0.5rem;
+    }
+
+    .nav-cart{
+        position:absolute;
+        left:0;
+        font-size: 1rem;
+        display: inline;
+    }
+    .nav-cart i{
+        font-size: 1rem;
+    }
+
+    .nav-signin{
+        position:absolute;
+        right:0;
+        font-size: 0.1rem;
+        display: inline;
+
+    }
+
+    .nav-returns{
+        display:none;
+    }
+
+    .nav-search {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .panel {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .panel-opitions {
+        width: 100%;
+        text-align: center;
+        font-size:0.5rem;
+    }
+    .panel-deals{
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin-top:5px;
+    }
+    .hero-sec {
+        height: 200px;
+        background-position: center;
+    }
+
+    .hero_msg {
+        width: 95%;
+        font-size: 0.8rem;
+        margin-bottom: 15px;
+    }
+
+    .shop_section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+    }
+    ul a{
+        display: block;
+        font-size: 0.58rem;
+        margin-top: 8px;
+        color: rgb(173, 173, 173);
+    }
+    ul p{  
+        font-size:0.8rem;
+    }
+    .foot_panle_2 {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .foot_panle3 {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 10px 0;
+    }
+}
